@@ -1,4 +1,4 @@
-/*eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }]*/
+/* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
 
 import React, { useState, useEffect } from 'react';
 
@@ -79,7 +79,7 @@ const Dashboard: React.FC = () => {
               <p>Saídas</p>
               <img src={outcome} alt="Outcome" />
             </header>
-            <h1 data-testid="balance-outcome">{balance.outcome}</h1>
+            <h1 data-testid="balance-outcome">{`- ${balance.outcome}`}</h1>
           </Card>
           <Card total>
             <header>
